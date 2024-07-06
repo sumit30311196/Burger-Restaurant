@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*----Navber---*/
+:root {
+    --brand: #f64b3c;
+    --white: #ffffff;
+  }
+.navbar {
+    background: linear-gradient(to bottom, rgba(20, 20, 20, 0.473), rgba(12, 12, 12, 0.418));
+}
+.nav-link{
+    color: #fff !important;
+    font-weight: 600;
+    padding: 0 16px !important;
+}
+/*----Hero---*/
+.hero{
+    background-image: url(images/hero.png);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    align-items: center;
+}
+.heros{
+    color: #fff;
+}
+.heros h1{
+    font-weight: 700;
+    font-size: 72px;
+}
+.btn{
+    padding: 5px 28px;
+    background-color: var(--brand);
+    border-radius: 25px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+/*----chef---*/
+.chef{
+    background-image: url(images/chef.png);
+    width: 100%;
+    height: 795px;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    align-items: center;
+    /* justify-content: center; */
+    color: var(--brand);
+}
+.header h1{
+    font-size: 42px;
+    color: var(--brand);
+    font-weight: 600;
+}
+.card{
+    text-align: center;
+    background: none;
+    border: none;
+}
+.card h4{
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 12px 0;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+.card span{
+    font-size: 22px;
+}
+
+/*-----Best-Burger----*/
+.best-burger{
+    background-image: url(images/best_burger.png);
+    width: 100%;
+    height: 795px;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: var(--brand);
+}
+.best{
+    color: white;
+    margin-top: 120px;
+}
+.best h2{
+    font-weight: 800;
+    font-size: 48px;
+}
+.best a{
+    text-decoration: none;
+    color: var(--brand);
+    font-weight: 650;
+    background-color: #fff;
+    width: 200px;
+    text-align: center;
+    padding: 8px 36px;
+    border-radius: 36px;
+}
+
+/*---big-burgar---*/
+.big-burger{
+    background-image: url(images/big_burgar.jpg);
+    width: 100%;
+    height: 805px;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: var(--brand);
+}
+.big{
+    margin-top: 120px;
+}
+.big h2{
+    font-weight: 800;
+    font-size: 48px;
+}
+.big a{
+    text-decoration: none;
+    color: white;
+    font-weight: 650;
+    background-color: var(--brand);
+    width: 200px;
+    text-align: center;
+    padding: 10px 36px;
+    border-radius: 36px;
+}
+/*--statistics-*/
+.statistics{
+    background-color: var(--brand);
+    width: 100%;
+    height: 791px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.statistics-text h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+.statistics-box{
+    border: 3px solid white;
+    width: 250px;
+    height: auto;
+    height: 220px;
+    display: grid;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;
+}
+.statistics-box h3{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+.statistics-box h3 span{
+    font-size: 18px;
+}
+
+/*-----popular-package-----*/
+.popular-package{
+    background-image: url(images/popular_pakage.jpg);
+    width: 100%;
+    height: 830px;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: var(--brand);
+}
+.popular-package-text h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+.card{
+    background-color: white;
+    width: 250px;
+    padding: 13px 16px;
+    margin: 5px auto !important;
+}
+.m-auto{
+    margin: 0 auto;
+}
+.package{
+    width: 100%;
+}
+.package img{
+    width: 75px;
+    height: 75px;
+}
+.package a{
+    text-decoration: none;
+    color: white;
+    font-weight: 650;
+    background-color: var(--brand);
+    width: 200px;
+    text-align: center;
+    padding: 10px 36px;
+    border-radius: 36px;
+}
+/*-----barry-----*/
+.barry{
+    background-image: url(images/barry.jpg);
+    width: 100%;
+    height: 789px;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.barry-text p{
+    font-size: 24px;
+    font-weight: 600;
+}
+.barry-text h2{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+/*--subscribe----*/
+.subscribe{
+    background-image: url(images/subscribe.jpg);
+    width: 100%;
+    height: 795px;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: var(--brand);
+}
+.subscribe-text h2{
+    font-size: 36px;
+    font-weight: bold;
+}
+.form input[type=text]{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    height: 48px;
+    border: 1px solid var(--brand);
+    outline: none;
+}
+.form button{
+    padding: 0 18px;
+    border: none;
+    background-color: var(--brand);
+    color: white;
+    font-weight: bold;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+/*---footer---*/
+.footer{
+    background-color: black;
+    padding: 100px 5px;
+}
+.footer ul li{
+    list-style-type: none;
+    text-align: left;
+}
+.footer ul{
+    padding-left: 0; /* Removes default padding from the ul */
+    list-style-type: none; /* Removes bullet points */
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 0 !important;
+}
+.footer ul li:hover{
+    padding-left: 5px;
+    transition: all 0.4s ease;
+}
+.title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.icon i{
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 50px;
+    margin: 2px 5px;
+}
+.icon i:hover{
+    background-color: var(--brand);
+    color: #f5f4f4;
+    transition: all 0.4s ease;
+}
+
+
+
+/*---responsive------*/
+@media (max-width: 768px){
+    .heros h1{
+        font-weight: 700;
+        font-size: 36px;
+    }
+    .chef{
+        height: auto;
+    }
+    .big-burger{
+        height: auto;
+        padding: 40px 0;
+    }
+    .popular-package{
+        height: auto;
+        padding: 40px 0;
+    }
+    .statistics{
+        height: auto;
+        padding: 40px 0;
+    }
+    .best-burger{
+        height: auto;
+        padding: 40px 0;
+    }
+    .barry{
+        height: auto;
+        padding: 40px 0;
+    }
+    .best{
+        margin-top: 30px;
+    }
+    .big{
+        margin-top: 30px;
+    }
+    .nav-link{
+        padding: 5px 0 !important;
+    }
+    .navbar {
+        background: linear-gradient(rgb(0, 0, 0) rgb(0, 0, 0)) !important;
+    }
+}
